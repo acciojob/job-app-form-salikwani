@@ -10,11 +10,11 @@
 	<form method="get">
 		<div>
 			<label for="name">Name</label>
-			<input type="text" id="name" required/>
+			<input type="text" id="name" name="username" required/>
 		</div>
 		<div>
 			<label for="email">Email</label>
-			<input type="email" id="email" required/>
+			<input type="email" id="email" name="emailID" required/>
 		</div>
 		<div>
 			<label for="male">Male</label>
@@ -24,7 +24,7 @@
 		</div>
 		<div>
 			<label for="laptop">Laptop</label>
-			<select id="laptop">
+			<select id="laptop" name="LaptopBrand">
 				<option>Hewlett Packard</option>
 				<option>Asus</option>
 				<option>Acer</option>
@@ -32,11 +32,11 @@
 		</div>
 		<div>
 			<label for="age">Age</label>
-			<input type="number" id="age" required/>
+			<input type="number" id="age" name="age" required/>
 		</div>
 		<div>
 			<label for="dob">DOB</label>
-			<input type="date" id="dob" required/>
+			<input type="date" id="dob" name="DateOfBirth" required/>
 		</div>
 		<div>
 			<label for="password">Password</label>
@@ -44,7 +44,7 @@
 		</div>
 		<div>
 			<label for="portfolio">Portfolio</label>
-			<input type="url" id="portfolio"/>
+			<input type="url" id="portfolio" name="Portfolio"/>
 		</div>
 		<div>
 			<input type="submit"/>
